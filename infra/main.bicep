@@ -145,6 +145,7 @@ module governanceResources 'modules/governance.bicep' = {
   }
 }
 
+/*
 // Container resources
 resource containerResourceGroup 'Microsoft.Resources/resourceGroups@2021-01-01' = {
   name: '${name}-container'
@@ -164,6 +165,7 @@ module containerResources 'modules/container.bicep' = {
     privateDnsZoneIdContainerRegistry: enableDnsAndFirewallDeployment ? globalDnsZones.outputs.privateDnsZoneIdContainerRegistry : privateDnsZoneIdContainerRegistry
   }
 }
+*/
 
 // Consumption resources
 resource consumptionResourceGroup 'Microsoft.Resources/resourceGroups@2021-01-01' = {
