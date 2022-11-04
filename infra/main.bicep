@@ -61,8 +61,8 @@ param privateDnsZoneIdQueue string = ''
 param privateDnsZoneIdBlob string = ''
 @description('Specifies the resource ID of the private DNS zone for EventHub namespaces. Optional if `enableDnsAndFirewallDeployment` is set to `true`.')
 param privateDnsZoneIdNamespace string = ''
-@description('Specifies the resource ID of the private DNS zone for Container Registry. Optional if `enableDnsAndFirewallDeployment` is set to `true`.')
-param privateDnsZoneIdContainerRegistry string = ''
+// @description('Specifies the resource ID of the private DNS zone for Container Registry. Optional if `enableDnsAndFirewallDeployment` is set to `true`.')
+// param privateDnsZoneIdContainerRegistry string = ''
 @description('Specifies the resource ID of the private DNS zone for Synapse. Optional if `enableDnsAndFirewallDeployment` is set to `true`.')
 param privateDnsZoneIdSynapse string = ''
 
